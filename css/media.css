@@ -1,0 +1,129 @@
+@media (max-width:1199px){
+    .feature-box{
+        padding: 25px 20px 25px 20px;
+    }
+}
+@media (max-width:991px){
+    .shop-icon-list ul{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .feature-box{
+        min-height: 170px;
+    }
+    .testimonial-box {
+        min-height: 265px;
+    }
+}
+@media (max-width:767px){
+    .logo h1{
+        font-size: 80px;
+    }
+    .shop-icon{
+        padding-bottom: 200px;
+    }
+    footer{
+        padding-top: 100px;
+    }
+    .footer-icon ul{
+        justify-content: center;
+    }
+    .footer-icon ul li a i {
+        /* margin: 20px; */
+    }
+    .footer-copyright{
+        padding-top: 40px;
+    }
+    .feature-icon-text{
+        display: inline-block !important;
+        text-align: center;
+    }
+    .feature-icon{
+        padding-bottom: 15px !important;
+        margin-right: 0px !important;
+    }
+    .feature-box{
+        min-height: 285px;
+    }
+    .feature-icon img {
+        width: 25%;
+    }
+    .testimonial-box {
+        min-height: 360px;
+    }
+    .feature-icon {
+        width: 100%;
+    }
+    .feature-text {
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (max-width:575px){
+    .testimonial-box{
+        text-align: center !important;
+        min-height: 200px;
+    }
+    .logo{
+        padding-top: 40px;
+    }
+    .feature{
+        padding-bottom: 150px;
+    }
+    .shop-icon{
+        padding-bottom: 150px;
+    }
+    .header_logo a{
+        font-size: 35px;
+    }
+    .feature-text {
+        width: 85%;
+        margin: auto;
+    }
+    .feature-icon {
+        width: 100%;
+    }
+    .shop_details p {
+        text-align: center;
+        margin: 15px 0;
+    }
+    .footer_menu ul li a{
+        font-size: 16px;
+        }
+    .feature-icon img {
+            width: 15%;
+     }
+}
+@media (max-width:425px){
+    .logo h1{
+        font-size: 60px;
+    }
+    .feature-icon img {
+        width: 18%;
+ }
+}
+@media (max-width:320px){
+    .logo h1{
+        font-size: 60px;
+    }
+    .header_logo a{
+        font-size: 28px;
+    }
+    .desh-btn {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    
+    .feture-text h1 {
+        font-size: 35px;
+    }
+    .logo h3 {
+        color: #fff;
+        font-size: 30px;
+    }
+    .feature-icon img {
+        width: 25%;
+ }
+}
+

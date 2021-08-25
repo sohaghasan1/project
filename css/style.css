@@ -1,0 +1,470 @@
+/* 
+============================
+global css
+============================
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #313131;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+hr,
+.btn,
+ul,
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.footer-icon ul li{
+    list-style: none;
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid #fff; */
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 4px 0px #171717;
+    border-radius: 5px;
+}
+.footer-icon ul li:hover{
+    background-color: #313131;
+}
+/* 
+============================
+global css
+============================
+*/
+
+/* 
+============================
+color & font size css
+============================
+*/
+.t-c-ff{
+    color: #fff;
+}
+.t-c-gr{
+    background: linear-gradient(#4ee36c, #2fb383);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+/* 
+============================
+color & font size css
+============================
+*/
+
+/* 
+============================
+header css strat here
+============================
+*/
+header{
+    padding: 30px 0;
+}
+.deshboard-btn{
+    text-align: right;
+}
+.desh-btn{
+    background: linear-gradient(#4ee36c, #2fb383);
+    border: none;
+    padding: 5px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    text-transform: capitalize;
+    transition: .4s all ease-in-out;
+    box-shadow: 0px 0px 9px 0px #ffffffcf;
+}
+.desh-btn:hover{
+    letter-spacing: 2px;
+    color: rgb(243, 237, 237);
+}
+/* 
+============================
+header css end here
+============================
+*/
+
+/* 
+============================
+logo css strat here
+============================
+*/
+.logo{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.logo h1{
+    font-size: 90px;
+    font-weight: 700;
+}
+.logo h2{
+    font-size: 60px;
+    font-weight: 700;
+    display: none;
+}
+.buy-btn{
+    background: linear-gradient(#4ee36c, #2fb383);
+    border: none;
+    padding: 5px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    text-transform: capitalize;
+    transition: .4s all ease-in-out;
+    box-shadow: 0px 0px 9px 0px #ffffffcf;
+}
+.buy-btn:hover{
+    letter-spacing: 3px;
+    color: rgb(243, 237, 237);
+}
+.main-img{
+    padding-top: 30px;
+    transition: .4s all ease-in-out;
+}
+.main-img.main-img:hover{
+    transform: scale(1.02);
+}
+/* 
+============================
+logo css end here
+============================
+*/
+
+
+/* 
+============================
+feture css strat here
+============================
+*/
+.feature{
+    padding-bottom: 200px;
+    padding-top: 150px;
+}
+.feture-row{
+    justify-content: center;
+}
+.feture-text h1{
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+.feature-box{
+    background: #353535;
+    padding: 0px 60px 0px 20px;
+    border-radius: 5px;
+    transition: .4s all ease-in-out;
+    margin-bottom: 40px;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 12px 0px #171717;
+}
+
+.feature-box:hover{
+    /* box-shadow: 0px 0px 12px 0px #171717; */
+    transform: translateY(-5px);
+}
+.feature-icon-text{
+
+}
+.feature-icon{
+    margin-right: 20px;
+    width: 18%;
+}
+.feature-icon img{
+    width: 150%;
+}
+.feature-text{
+width: 70%;
+}
+.feature-text h1{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.feature-text p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.fe-b{
+    font-weight: 600;
+}
+/* 
+============================
+feture css end here
+============================
+*/
+
+
+/* 
+============================
+shop-icon css strat here
+============================
+*/
+.shop-icon{
+    padding-bottom: 200px;
+}
+.shop-icon-list{
+
+}
+.shop-icon-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.shop-icon-list ul li{
+    
+}
+.shop-icon-list ul li img{
+    width: 60%;
+    transition: .4s all ease-in-out;
+}
+.shop-icon-list ul li img:hover{
+    transform: scale(1.1);
+}
+/* 
+============================
+shop-icon css end here
+============================
+*/
+/* 
+============================
+testimonial css strat here
+============================
+*/
+.testimonial{
+    padding-bottom: 200px;
+}
+.testimonial-box{
+    background: #353535;
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    transition: .4s all ease-in-out;
+    min-height: 220px;
+    box-shadow: 0px 0px 12px 0px #171717;
+}
+.testimonial-box:hover{
+    transform: translateY(-5px);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+.testimonial-box h1{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.testimonial-box p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+/* 
+============================
+testimonial css end here
+============================
+*/
+
+
+/* 
+============================
+zendex css strat here
+============================
+*/
+.zen-btn{
+    background: linear-gradient(#4ee36c, #2fb383);
+    border: none;
+    padding: 5px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    text-transform: capitalize;
+    transition: .4s all ease-in-out;
+    box-shadow: 0px 0px 9px 0px #ffffffcf;
+    margin-bottom: 300px;
+}
+.zen-btn:hover{
+    letter-spacing: 2px;
+    color: rgb(243, 237, 237);
+}
+/* 
+============================
+zendex css end here
+============================
+*/
+
+
+/* 
+============================
+footer css strat here
+============================
+*/
+footer{
+    padding-top: 50px;
+    background: #3D3D3D;
+}
+.footer-icon{
+    text-align: right;
+}
+.footer-icon ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer-icon ul li a i{
+    /* font-size: 40px; */
+    color: #40BE62;
+    /* margin-left: 30px; */
+    transition: .2s all ease-in-out;
+}
+.footer-icon ul li a i:hover{
+    background: linear-gradient(#4ee36c, #2fb383);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.footer-copyright{
+    /* padding-top: 80px; */
+    padding-bottom: 30px;
+}
+.footer-copyright h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+/* 
+============================
+footer css end here
+============================
+*/
+
+/* 
+============================
+type css strat here
+============================
+*/
+
+/* 
+============================
+type css end here
+============================
+*/
+
+
+.header_logo a{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.logo h3{
+
+color: #fff;
+
+font-size: 40px;
+}
+.logo p{
+
+color: #919191;
+}
+.logo h6{
+    color: #919191;
+    font-size: 13px;
+    font-weight: 400; 
+    margin-top: 15px;
+}
+.shop_details{
+
+}
+.shop_details h1{
+    
+color: #fff;
+    
+text-align: center;
+    
+/* line-height: 41px; */
+    
+margin-bottom: 15px;
+font-weight: 500;
+}
+.shop_details h1 span{
+    font-weight: 700;
+}
+.shop_details p{
+    
+color: #fff;
+}
+.shop_details p span{
+    
+font-weight: 700;
+}
+.zendesk h2{
+
+color: #fff;
+
+font-size: 35px;
+}
+.zendesk p{
+    
+color: #fff;
+    
+margin: 15px 0;
+}
+footer h1{
+
+color: #fff;
+}
+.footer_menu{/* margin-top: 50px; */padding-top: 60px;}
+.footer_menu ul{
+
+list-style: none;
+
+margin: 0;
+
+padding: 0;
+
+display: flex;
+
+width: 100%;
+
+justify-content: space-between;
+
+margin-bottom: 20px;
+flex-wrap: wrap;
+}
+.footer_menu ul li{
+    
+}
+.footer_menu ul li a{
+    
+color: #fff;
+    
+font-size: 20px;
+transition: .4s all ease-in-out;
+}
+.footer_menu ul li a:hover{
+    background: linear-gradient(#4ee36c, #2fb383);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
